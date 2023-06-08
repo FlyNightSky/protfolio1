@@ -47,6 +47,7 @@ const Script = () => {
           className="outline outline-1 outline-teal-200 rounded bg-transparent px-2 hover:px-5"
           placeholder="Ask DetoxGPT"
         />
+          <h2 className='absolute font-bold pt-24'>Can't click on the GPT box? click tab</h2>
       </div>
     </div>
   );

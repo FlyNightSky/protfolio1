@@ -9,7 +9,7 @@ const Script = () => {
         console.log('webGPT3.5');
         let inputVal = document.getElementById('input').value;
         alert("DetoxGPT is typing...");
-        const apiKey = "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";
+        const apiKey = "YOUR_GPT_KEY";
         const apiUrl = "https://detoxgpt.glitch.me/web/_aHR0cHM6Ly9hcGkub3BlbmFpLmNvbQ==_/v1/chat/completions";
         (async function() {
           const response = await fetch(apiUrl, {

@@ -9,7 +9,7 @@ const Script = () => {
         console.log('webGPT3.5');
         let inputVal = document.getElementById('input').value;
         alert("DetoxGPT is typing...");
-        const apiKey = "YOUR_GPT_KEY";
+        const apiKey = "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";
         const apiUrl = "https://detoxgpt.glitch.me/web/_aHR0cHM6Ly9hcGkub3BlbmFpLmNvbQ==_/v1/chat/completions";
         (async function() {
           const response = await fetch(apiUrl, {
@@ -40,14 +40,17 @@ const Script = () => {
 
   return (
     <div>
-      <div className="flex justify-center items-center w-screen h-screen text-white">
+      <div className="flex justify-center items-center w-screen h-screen text-white ">
         <h1 className="absolute pb-36 font-bold text-5xl">DetoxGPT</h1>
         <input
           id="input"
           className="outline outline-1 outline-teal-200 rounded bg-transparent px-2 hover:px-5"
           placeholder="Ask DetoxGPT"
         />
-          <h2 className='absolute font-bold pt-24'>Can't click on the GPT box? click tab</h2>
+        <h2 className='absolute font-bold pt-24'>Can't click on the GPT box? click tab</h2>
+      <footer className='absolute bottom-0 pb-2 text-blue-200 '>
+       <a class="text-2xl" href="https://detoxnetwork.repl.co/"><img src="https://new-navbar.detoxnetwork.repl.co/logo.svg" width="50"/></a>
+      </footer>
       </div>
     </div>
   );

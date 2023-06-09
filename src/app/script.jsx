@@ -42,7 +42,7 @@ const Script = () => {
   return (
     <div>
       <div className="flex justify-center items-center w-screen h-screen text-white ">
-        <h1 className="absolute pb-36 font-bold text-5xl bg-green-400 z-0">DetoxGPT</h1>
+        <h1 className="absolute pb-36 font-bold text-5xl z-0">DetoxGPT</h1>
         <input
           id="api-key"
           className="z-10 outline outline-1 outline-teal-200 rounded bg-transparent px-2 hover:px-5"

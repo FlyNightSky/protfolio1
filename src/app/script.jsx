@@ -1,5 +1,6 @@
 "use client"
 import { useState, useEffect } from 'react';
+import './style.css'
 
 const Script = () => {
   useEffect(() => {
@@ -57,7 +58,7 @@ const Script = () => {
        <a class="text-2xl absolute ml-20" href="https://cognet.vercel.app">
         <img src="https://cognet.vercel.app/logo.png" className='z-0 ' width="45"/> 
         </a> 
-        <h1 className='bottom-0 ml-14 absolute pb-5'>+</h1> 
+        <h2 className='bottom-0 ml-14 absolute pb-5'>+</h2> 
         <a href='https://detoxnetwork.repl.co'>
         <img src="https://new-navbar.detoxnetwork.repl.co/logo.svg" className='mr-24 z-10' width="50"/>
         </a>

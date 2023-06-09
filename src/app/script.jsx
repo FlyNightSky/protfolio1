@@ -42,15 +42,15 @@ const Script = () => {
   return (
     <div>
       <div className="flex justify-center items-center w-screen h-screen text-white ">
-        <h1 className="absolute pb-36 font-bold text-5xl">DetoxGPT</h1>
+        <h1 className="absolute pb-36 font-bold text-5xl bg-green-400 z-0">DetoxGPT</h1>
         <input
           id="api-key"
-          className="outline outline-1 outline-teal-200 rounded bg-transparent px-2 hover:px-5"
+          className="z-10 outline outline-1 outline-teal-200 rounded bg-transparent px-2 hover:px-5"
           placeholder="API KEY"
         />
         <input
           id="input"
-          className="absolute mt-20 outline outline-1 outline-teal-200 rounded bg-transparent px-2 hover:px-5"
+          className=" z-10 absolute mt-20 outline outline-1 outline-teal-200 rounded bg-transparent px-2 hover:px-5"
           placeholder="Ask DetoxGPT"
         />
         <h2 className='absolute font-bold pt-40'>Can't click on the GPT box? click tab</h2>

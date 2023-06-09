@@ -53,7 +53,6 @@ const Script = () => {
           className=" z-10 transition-all absolute mt-20 outline outline-1 outline-teal-200 rounded bg-transparent px-2 hover:px-5"
           placeholder="Ask DetoxGPT"
         />
-        <h2 className='absolute font-bold pt-40'>Can't click on the GPT box? click tab</h2>
       <footer className='absolute bottom-0 pb-2 text-blue-200 '>
        <a class="text-2xl absolute ml-20" href="https://cognet.vercel.app">
         <img src="https://cognet.vercel.app/logo.png" className='z-0 ' width="45"/> 
